@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+ 🚀 XeroCodee Full-Stack Development Internship Task
 
-## Getting Started
+🚀🚀 Table of Contents
 
-First, run the development server:
+⭐[Design Decisions]
+⭐ Challenges Faced
+⭐ Installation]
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🚀🚀 Design Decisions
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+ 🤖 Architecture : Describe the overall project architecture and how different components/modules interact.
+ 🤖 Tech Stack :  ☀️ Language: TypeScript
+                   ☀️ Framework/Library: Next.js
+                   ☀️ Styling: TailwindCSS
+ 🤖 Architecture: MVVC (Model-View-ViewModel-Controller)
+ 🤖 Testing: Jest
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+🚀🚀 Challenges Faced
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+☀️ The Main Challenge was to implement Typescript in the project.
+☀️ When using Next.js for SSR, i had to make sure that the server-rendered components was type-safe, 
+and data fetched on the server is properly typed this was quite hard for me in the begining.
+☀️ Integrating TypeScript with state management libraries was challenging too for me.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Happy Coding ❤️
